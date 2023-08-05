@@ -1,0 +1,200 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+html{
+    font-size: 16px;
+    color: #282525;
+    background-color: aliceblue;
+    font-family: 'Tajawal',
+}
+
+header{
+
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,.7) ,  rgba(0,0,0,.7))
+    , url(../img/3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+
+margin-top: 20px ;
+}
+
+.main-nav ,.footer-nav ,.social-nav{
+    list-style: none;
+    display: flex;
+}
+.main-nav li ,.footer-nav li ,.social-nav li{
+    margin: 0 40px;
+}
+.main-nav li a:link ,
+ .main-nav li a:visited ,
+
+ .footer-nav li a:link ,
+.footer-nav li a:visited ,
+
+.social-nav li a:link ,
+ .social-nav li a:visited{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+ }
+.main-nav li a:hover ,
+ .main-nav li a:active ,
+.footer-nav li a:hover ,
+ .footer-nav li a:active ,
+.social-nav li a:hover ,
+ .social-nav li a:active{
+    text-decoration: underline;
+    color: orange;
+ }
+ 
+ .hero-box{
+position: absolute;
+top: 40%; left: 15%;
+ }
+ h1{
+color: aliceblue;
+font-size: 2rem;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-bottom: 30px;
+ }
+ .btn{
+    border: solid 1px blueviolet;
+    color: blueviolet;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 15px;
+ }
+ .btn:hover{
+    color: white;
+    background-color: blueviolet;
+
+ }
+ section{
+padding: 40px 0;
+
+
+ }
+
+ h2{
+text-align: center;
+
+font-size: 1.5rem;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 2px;
+ }
+ hr{
+
+width: 100px;
+margin: 20px auto;
+border: 3px solid royalblue;
+
+ }
+ .feat-desc{
+    width: 60%;
+    margin: 1% auto;
+    text-align: center;
+    
+ }
+ .hr2{
+
+    width: 100px;
+    margin: 20px auto;
+    border: 3px solid royalblue;
+    
+     }
+      .city img{
+     width: 100%;
+     margin-bottom: 7px;
+      }
+      .city h3 , .city p{
+        margin-bottom: 7px;
+        
+    
+      }
+      .city i{
+        color: chocolate;
+
+    
+      }
+
+      .testimonials{
+        color: white;
+        background-image:linear-gradient(rgba(0,0,0,.7) ,  rgba(0,0,0,.7))
+        , url(../img/13.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed; 
+     
+    
+    }
+
+    .testimonials i{
+
+   font-size: 37px;
+   margin-bottom: 10px;
+ 
+    }
+
+
+    .testimonials p{
+line-height: 1.5;
+margin-bottom: 15px;
+
+
+    }
+
+    .testimonials img{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+margin-right: 15px;
+vertical-align: middle;
+
+
+    }
+label{
+color: dodgerblue;
+margin-bottom: 10px;
+
+}
+
+    input{
+        width: 100%;
+        padding: 7px;
+        margin-bottom: 11px;
+        border: 1px solid cornsilk;
+        border-radius: 5px;
+        outline-color:  greenyellow;
+    }
+
+button{
+border: solid 2px orange;
+background-color: orange;
+color: rgb(146, 22, 22);
+padding: 10px 20px;
+border-radius: 15px;
+
+    }
+
+    footer{
+padding: 40px 0;
+background-color: #333;
+
+
+    }
